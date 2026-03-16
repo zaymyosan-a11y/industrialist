@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>bootleg industrialist wiki</title>
+
+        <style>
+            html {
+            margin: 0;
+            padding: 0;
+            background-color: rgb(39, 39, 39);
+            }
+
+            body {
+            margin-left: 10%;
+            margin-right: 10%;
+            background-color: rgb(53, 53, 53);
+            color: bisque;
+            font-family: sans-serif;
+            font-size: 20px;
+            border: 3px solid rgba(83, 83, 83, 0.5);
+            }  
+
+            .LogoHeader {
+            width: 50%;
+            margin: auto;
+            }
+
+            #LogoHeader {
+            width: 100%;
+            height: auto;
+            }
+
+            .Separator {
+            border-bottom: 3px solid rgba(83, 83, 83, 0.5);
+            }
+
+            #SearchBox {
+            display: flex;
+            background-color: rgb(65, 65, 65);
+            width: 60%;
+            padding: 10px;
+            margin: auto;
+            border-radius: 1000px;
+            border: 1px solid rgba(100, 100, 100, 0.5);
+            }
+
+            .SearchButtons {
+            border: none;
+            background-color: transparent;
+            color:bisque;
+            font-size: 16px;
+            }
+
+            .Text {
+            margin: 10%;
+            }
+
+            .Table {
+            margin: 5%;
+            width: 80%;
+            border-radius: 10px;
+            border: 1px solid rgba(100, 100, 100, 0.5);
+            text-align: center;
+            }
+
+            th, td {
+            padding: 10px;
+            }
+
+            .one {
+            background-color: rgb(65, 65, 65);
+            }
+
+            .two {
+            background-color: rgb(75, 75, 75);
+            }
+
+            a {
+            color: lavender;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div style="margin-top: 10%;" class="LogoHeader">
+            bootleg
+        </div>
+        <div class="LogoHeader">
+            <img id="LogoHeader" src="https://static.wikitide.net/industrialistwiki/b/b8/Logowiki.webp">
+        </div>
+        <div class="Separator">
+            <br>
+            <br>
+        </div>
+        <div class="Separator">
+            <br>
+            <br>
+            <form id="SearchBox" action="https://industrialist.miraheze.org/wiki/Special:Search">                
+                <input type="search" class="SearchButtons" name="search" style="flex: 1;">
+                <input type="submit" class="SearchButtons" value="find" style="margin-left: 5px; margin-right: 5px;">
+            </form>
+            <br>
+        </div>
+        <div class="Separator">
+            <div class="Text">
+            so uhh this page is just a knockoff page, the search bar above links to the official page so just look up whatever you need but honestly just use the <a href="https://industrialist.miraheze.org/wiki/Main_Page">official miraheze entry </a>
+            <br>
+            <br>
+            i guess i can give you some of the stuff i know from my own calculations and the discord tho
+            </div>
+        </div>
+        <div class="Separator">
+            <div class="Text">
+            <h1 style="text-align: center; color: rgb(192, 192, 255);">Purple Gold Production</h1>
+            <br>
+            <br>
+            <div style="color: azure;">
+                <em>
+                    <strong style="font-size: xx-large;">Overview</strong>
+                    <br>
+                    <br>
+                    Cost: 30-40m / 70m (full size)
+                    <br>
+                    Power: 20mmf/s
+                    <br>
+                    Output: 0.5 pgold/s / 0.89 pgold/s (full size)
+                    <br>
+                    Pollution: 10%/hr / 20%/hr (full size)
+                </em>
+            </div>
+            
+            <br>
+            <br>
+            you need at least like 30 mil for any respectable setup and thats just barely cutting it
+            <br>
+            <br>
+            assuming you already have the drill and its stuff and power and scrubbers
+            <br>
+            <br>
+            probably 40 mil if not, the drill is expensive 
+            <br>
+            <br>
+            also do NOT make machine oil for that cursed thing
+            <br>
+            <br>
+            i found that out the hard way :(
+            <div class="Text">
+                <img src="https://media.discordapp.net/attachments/1368968226905653421/1450450411097165875/Pv3.png?ex=69b892f6&is=69b74176&hm=cd97b0c2d96b6f12fef33bb606e4c07190591ab5af3a0684b2d2b4f6dfc2c66f&=&format=webp&quality=lossless&width=1104&height=662" style="width: 100%; height: auto;">
+            </div>
+            yeah so uhh just follow this basically, you can also just about halve this setup if you set the drill to 6400m
+            <br>
+            <br>
+            if ur using this for rp use 20 rs3, or 5 rs4 will do, im using a basic mde setup so i needed to reroute power but ur fine if you have better power
+            <br>
+            <br>
+            you need hv for this btw, theres gonna be a LOT of hydrochloric acid going around so just get a hv pole for reach
+            <br>
+            <br>
+            dw if the output looks mid at first, its supposed to be half a pgold a sec anyway, prefilling the machines will help get it up to speed faster
+            </div>
+        </div>
+        <div class="Separator">
+            <div class="Text">
+                <h1 style="text-align: center; color: lightcyan;">Tuning</h1>
+                <br>
+                <br>
+                some of the components are variable, eg, alloyer speed depends on steam temp and tree growth rate depends on pollution 
+                <br>
+                <br>
+                here are the tables
+                <br>
+                <br>
+                <div style="display: flex;">
+                    <div style="flex: 1;">
+                    <table class="Table">
+                    <tr class="one">
+                        <th>steam temp</th>
+                        <th>alloyer speed</th>
+                    </tr>
+                    <tr class="two">
+                        <td>350C</td>
+                        <td>8.9s (max)</td>
+                    </tr>
+                    <tr class="one">
+                        <td>300C</td>
+                        <td>10s</td>
+                    </tr>
+                    <tr class="two">
+                        <td>200C</td>
+                        <td>12.5s</td>
+                    </tr>
+                    <tr class="one">
+                        <td>100C</td>
+                        <td>20s</td>
+                    </tr>
+                    <tr class="two">
+                        <td>0C</td>
+                        <td>40s</td>
+                    </tr>
+                    </table>
+                    </div>
+                    
+        
+                    <div style="flex: 1;">
+                    <table class="Table">
+                    <tr class="one">
+                        <th>pollution</th>
+                        <th>tree growth rate</th>
+                    </tr>
+                    <tr class="two">
+                        <td>100% & up</td>
+                        <td>690s</td>
+                    </tr>
+                    <tr class="one">
+                        <td>75-99%</td>
+                        <td>425s</td>
+                    </tr>
+                    <tr class="two">
+                        <td>50-74%</td>
+                        <td>345s</td>
+                    </tr>
+                    <tr class="one">
+                        <td>25-49%</td>
+                        <td>325s (min)</td>
+                    </tr>
+                    <tr class="two">
+                        <td>-60-24%</td>
+                        <td>345s</td>
+                    </tr>
+                    <tr class="one">
+                        <td>-150% & down</td>
+                        <td>690s</td>
+                    </tr>
+                    </table>
+                    </div>
+                </div>
+                <br>
+                <br>
+                also the mineshaft drill and rp calculators 
+                <h1><a href="https://industrialist-wiki.github.io/mineshaft-drill-calculator/">Mineshaft Drill Calculator</a></h1>
+                <h1><a href="https://fizzy-gamer.github.io/RPCalculator/">RP Calculator</a></h1>
+                so yeah just adjust according to your situation 
+                <br>
+                <br>
+                lowk you dont need more than 300C steam, too much of a hassle for one sec difference
+                <br>
+                <br>
+                given that -40% pollution gives the max 7%-ish money boost, best to hover around -50% using pollution gate for your scrubbers power
+                <br>
+                <br>
+                convenient thing about 6400m drill is it gives exactly enough deep earth fragments for 5 trommels, but a bit too much bauxite
+                <br>
+                <br>
+                test everything out yourself and see what numbers work for you, as always with this game
+            </div>
+        </div>
+        <div class="Separator">
+        <div class="Text">
+            <div style="text-align: center;">
+            <h1 style="color: azure;">Review</h1>
+            so uhh can yall rate my wiki, its my best effort i swear
+            </div>
+            <br>
+            <div style="text-align: center;">
+            <form>
+                
+                <input type="radio" id="1" name="rating" value="1">
+                <label for="1">1</label>
+                <input type="radio" id="2" name="rating" value="2">
+                <label for="2">2</label>
+                <input type="radio" id="3" name="rating" value="3">
+                <label for="3">3</label>
+                <input type="radio" id="4" name="rating" value="4">
+                <label for="4">4</label>
+                <input type="radio" id="5" name="rating" value="5">
+                <label for="5">5</label>
+                
+                <br>
+                <br>
+
+                is this peak
+                <input type="checkbox" id="peak" name="peak" value="yes">
+                <label for="peak">yes</label>
+
+                <br>
+                <br>
+
+                why
+                <br>
+                <select>
+                    <option>its just peak</option>
+                    <option>its cinema</option>
+                    <option>its cool</option>
+                    <option>its pog</option>
+                </select>
+
+                <br>
+                <br>
+
+                opinion
+                <br>
+                <br>
+                <textarea></textarea>
+
+                <br>
+                <br>
+
+                <input type="submit" value="thanks">
+            </form>
+            </div>
+        </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </body>
+</html>
